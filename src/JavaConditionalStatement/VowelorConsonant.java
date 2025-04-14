@@ -8,23 +8,51 @@ public class VowelorConsonant {
 	
 		Scanner input = new Scanner(System.in);
 	
-		String letter = input.next().toLowerCase();
+		String letter = input.next();
+		
 		switch (letter) {
 		case "a":
 			System.out.println("Input an alphabet: " + letter);
-			System.out.println("Input letter is Consonant");
+			System.out.println("Input letter is Vowel");
 			break;
-		case "b":
+		case "e":
 			System.out.println("Input an alphabet: " + letter);
-			System.out.println("Input letter is Consonant");
+			System.out.println("Input letter is Vowel");
 			break;
-		case "c":
+		case "i":
 			System.out.println("Input an alphabet: " + letter);
-			System.out.println("Input letter is Consonant");
+			System.out.println("Input letter is Vowel");
 			break;
-			
+		case "o":
+			System.out.println("Input an alphabet: " + letter);
+			System.out.println("Input letter is Vowel");
+			break;
+		case "u":
+			System.out.println("Input an alphabet: " + letter);
+			System.out.println("Input letter is Vowel");
+			break;
+		case "A":
+			System.out.println("Input an alphabet: " + letter);
+			System.out.println("Input letter is Vowel");
+			break;
+		case "E":
+			System.out.println("Input an alphabet: " + letter);
+			System.out.println("Input letter is Vowel");
+			break;
+		case "I":
+			System.out.println("Input an alphabet: " + letter);
+			System.out.println("Input letter is Vowel");
+			break;
+		case "O":
+			System.out.println("Input an alphabet: " + letter);
+			System.out.println("Input letter is Vowel");
+			break;
+		case "U":
+			System.out.println("Input an alphabet: " + letter);
+			System.out.println("Input letter is Vowel");
+			break;
 		default:
-			break;
+			System.out.println("Input letter is Consonant");
 		}
 
 	}
