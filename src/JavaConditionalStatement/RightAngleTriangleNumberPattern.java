@@ -1,5 +1,5 @@
 package JavaConditionalStatement;
-/*Right-Angle Triangle Number Pattern*/
+/*	*/
 /*Write a Java program to display the pattern like a right angle triangle with a number.
 
 Test Data
