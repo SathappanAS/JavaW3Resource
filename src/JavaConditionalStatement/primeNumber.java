@@ -12,7 +12,7 @@ public class primeNumber {
 		int N = input.nextInt();
 		boolean flagIsPrime=true;
 		
-		for(int i=2;i<=((N/2)-1);i++) {
+		for(int i=2;i<=(N-1);i++) {
 			if(N%i==0) {
 				flagIsPrime=false;
 				break;}}
