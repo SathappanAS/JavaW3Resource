@@ -2,7 +2,7 @@ package JavaArrays;
 
 import java.util.OptionalInt;
 
-public class P5_IndexofAnArrayElement {
+public class P6_IndexofAnArrayElement {
 
 	public static OptionalInt findIndex(int[] my_array, int t) {
 
