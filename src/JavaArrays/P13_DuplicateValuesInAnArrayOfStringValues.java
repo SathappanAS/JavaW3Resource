@@ -4,7 +4,7 @@ public class P13_DuplicateValuesInAnArrayOfStringValues {
 	/* Write a Java program to find duplicate values in an array of string values */
 	public static void main(String[] args) {
 		
-		 String[] my_array = {"bcd", "abd", "jude", "bcd", "oiu", "gzw", "oiu"};
+		 String[] my_array = {"bcd", "abd", "jude", "bcd", "GDF", "oiu", "oiu"};
 		 
 	        // Iterate through the elements of the string array.
 	        for (int i = 0; i < my_array.length-1; i++) {
